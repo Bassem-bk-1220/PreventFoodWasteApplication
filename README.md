@@ -3,7 +3,7 @@
 this application give the opportunity to prevent the food waste by make reduces for the products that they will be expired.
 they are two persons in this application:
 
-* Seller can: 
+** Seller can: 
 -  Connect (login) 
 -  Disconnect (logout) 
 -  Recover password
@@ -12,7 +12,7 @@ they are two persons in this application:
 -  See the products
 -  Receive notification for the product that will be expired.
 
-* Client:
+** Client can:
 -  Connect (login) 
 -  Disconnect (logout) 
 -  Recover password
