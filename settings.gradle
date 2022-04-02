@@ -1,0 +1,2 @@
+rootProject.name = "Projet Licence"
+include ':app'

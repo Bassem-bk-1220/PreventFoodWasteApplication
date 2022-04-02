@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#F6D5D5</color>
+    <color name="dark_pink">#F559A7</color>
+    <color name="dark_green">#4D8D6E</color>
+    <color name="light_green">#5D977B</color>
+
+    // dots inactive colors
+    <color name="dark_one">#dcdcdc</color>
+    <color name="dark_two">#dcdcdc</color>
+    <color name="dark_three">#dcdcdc</color>
+
+    // dots active colors
+    <color name="vert_one">#4D8D6E</color>
+    <color name="vert_two">#4D8D6E</color>
+    <color name="vert_three">#4D8D6E</color>
+
+
+    <array name="active">
+        <item>@color/vert_one</item>
+        <item>@color/vert_two</item>
+        <item>@color/vert_three</item>
+    </array>
+
+    <array name="inactive">
+        <item>@color/dark_one</item>
+        <item>@color/dark_two</item>
+        <item>@color/dark_three</item>
+    </array>
+
+</resources>

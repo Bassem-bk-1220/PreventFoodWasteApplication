@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "91006168373",
+    "firebase_url": "https://preventfoodwaste-75851-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "preventfoodwaste-75851",
+    "storage_bucket": "preventfoodwaste-75851.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91006168373:android:955cc6bd2a97986ef6f07c",
+        "android_client_info": {
+          "package_name": "com.example.projetlicence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91006168373-thqp1n256dju9u1j1q6vsmkagoe7rb1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWyK5edD4SQRJ47Sk3pKnjNnVpwD64Ixw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91006168373-thqp1n256dju9u1j1q6vsmkagoe7rb1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
