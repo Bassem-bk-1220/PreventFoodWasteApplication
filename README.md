@@ -10,7 +10,7 @@ they are two persons in this application:
 -  Update profile 
 -  Add and scan product
 -  See the products
--  Receive notification for the product that will be expired.
+-  Receive notification for the product that it wil be expired.
 
 ** Client can:
 -  Connect (login) 
