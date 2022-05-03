@@ -8,7 +8,7 @@ they are two persons in this application:
 -  Disconnect (logout) 
 -  Recover password
 -  Update profile 
--  Add and scan product
+-  Add and update product
 -  See the products
 -  Receive notification for the product that it wil be expired.
 
