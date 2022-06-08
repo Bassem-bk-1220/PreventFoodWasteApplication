@@ -22,4 +22,4 @@ they are two persons in this application:
 -  Add the produc in the list favourite
 -  Send message to the seller if you have questions
 -  Update profile 
--  Receive notification for the period of the product in promotion.
+
