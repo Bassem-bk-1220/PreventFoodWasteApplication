@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailsProductsClientActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/dark_green"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="Details"
+                android:drawableLeft="@drawable/icon_back"
+                android:drawablePadding="10dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="90dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="300dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_search"
+                android:src="@drawable/img_product"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_marginTop="300dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name_product"
+                android:text="Orange juice"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_description_product"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25sp"
+                android:layout_marginRight="25sp"
+                android:gravity="center"
+                android:text="Orange juice is like all fruit juices, contains the sugars naturally present in fruit."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_Ingredients_product"
+                android:layout_marginTop="20dp"
+                android:text="Ingredients:"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_description_ingredients"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25sp"
+                android:layout_marginRight="25sp"
+                android:gravity="center"
+                android:text="les sucres naturellement présents dans les fruits.Sans sucres ajoutés"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_Nutritions_product"
+                android:layout_marginTop="20dp"
+                android:text="Nutrition:"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_description_Nutrition"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25sp"
+                android:layout_marginRight="25sp"
+                android:text="Carbohydrates/ Proteins /Vitamin C"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtv_add_cart"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/dark_green"
+                android:background="@drawable/background_search"
+                android:gravity="center"
+                android:text="Buy now"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+               />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</FrameLayout>

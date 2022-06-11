@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_order_recevied"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:elevation="2dp"
+    android:background="@drawable/shape_rectangle_radius">
+
+    <TextView
+        android:id="@+id/txtv_Num_commande_"
+        android:layout_marginTop="10dp"
+        android:text="Commande N°:"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/txtv_commande_number"
+        android:layout_marginTop="10dp"
+        android:text="12345"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txtv_Num_commande_"
+        />
+
+    <TextView
+        android:id="@+id/txtv_prix"
+        android:layout_marginTop="10dp"
+        android:text="This person has an order for delivery. "
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="50dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtv_commande_number"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/txtv_date_order"
+        android:layout_marginTop="10dp"
+        android:text="04/05/2022 12:23 PM"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="30dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtv_prix"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
