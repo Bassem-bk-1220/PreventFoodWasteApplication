@@ -10,7 +10,7 @@ they are two persons in this application:
 -  Update profile 
 -  Add and update product
 -  See the products
--  Receive notification for the product that it wil be expired.
+-  Receive notification for the product that it will be expired.
 
 ** Client can:
 -  Connect (login) 
@@ -19,7 +19,7 @@ they are two persons in this application:
 -  Update profile 
 -  See and search the products
 -  See the details for the product
--  Add the produc in the list favourite
+-  Add the product in the list favourite
 -  Send message to the seller if you have questions
 -  Update profile 
 
